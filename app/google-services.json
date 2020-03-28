@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647235152437",
+    "firebase_url": "https://delivery-funcionando.firebaseio.com",
+    "project_id": "delivery-funcionando",
+    "storage_bucket": "delivery-funcionando.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647235152437:android:31816f266addd6cdb1df7c",
+        "android_client_info": {
+          "package_name": "dev.rafaelsermenho.deliveryfuncionando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647235152437-79le68oc1ulf1lifrnit9ka9s0ap56ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu4gPxWWsnIJj2iyhG5kjxutZm1QX5lSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647235152437-79le68oc1ulf1lifrnit9ka9s0ap56ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

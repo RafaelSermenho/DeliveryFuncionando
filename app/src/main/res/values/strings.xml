@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Delivery Funcionando</string>
+    <string name="store">Estabelecimento:</string>
+    <string name="profile">Perfil:</string>
+    <string name="products">Produtos:</string>
+    <string name="working_hours">Horário de funcionamento:</string>
+    <string name="area">Área de atuação:</string>
+    <string name="autor_bandeira">https://commons.wikimedia.org/wiki/User:BrCaLeTo</string>
+
+</resources>
