@@ -11,7 +11,7 @@
         android:iconifiedByDefault="false"
         android:imeOptions="actionNone"
         android:inputType="text"
-        android:queryHint="Produto ou loja" />
+        android:queryHint="@string/query_hint" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -19,6 +19,7 @@
         android:layout_below="@id/searchView"
         android:alpha="0.1"
         android:scaleType="fitCenter"
+        android:contentDescription="@string/background_content_description"
         android:src="@drawable/ic_phoenix" />
 
     <androidx.recyclerview.widget.RecyclerView

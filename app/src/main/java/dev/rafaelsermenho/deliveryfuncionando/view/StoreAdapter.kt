@@ -1,6 +1,5 @@
 package dev.rafaelsermenho.deliveryfuncionando.view
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,10 +18,10 @@ class StoreAdapter(private val storeList: List<Store>) :
             parent,
             false
         ) as View
-        return ViewHolder(view, parent.context)
+        return ViewHolder(view)
     }
 
-    class ViewHolder(view: View, val context: Context) : RecyclerView.ViewHolder(view) {
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val name: TextView = view.txtNameValue
         private val profile: TextView = view.txtProfileValue
         private val product: TextView = view.txtProductsValue
