@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">@color/yellow_gold</color>
 
-    <color name="white">#FFFFFF</color>
     <color name="yellow_gold">#FFD700</color>
     <color name="blue_dark">#00008B</color>
 
