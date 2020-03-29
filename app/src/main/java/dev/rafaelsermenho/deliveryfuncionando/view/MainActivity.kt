@@ -10,12 +10,14 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener
 import dev.rafaelsermenho.deliveryfuncionando.R
 import dev.rafaelsermenho.deliveryfuncionando.model.Store
 import dev.rafaelsermenho.deliveryfuncionando.viewmodel.StoresViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import pub.devrel.easypermissions.EasyPermissions
-
 
 class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
     private lateinit var viewManager: RecyclerView.LayoutManager
@@ -28,6 +30,8 @@ class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
         setupViewModel()
         setupRecyclerView()
         setupSearch()
+        setupAdmob()
+        loadAds()
     }
 
     private fun setupViewModel() {
@@ -122,6 +126,18 @@ class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
                 Manifest.permission.ACCESS_FINE_LOCATION
             )
         }
+    }
+
+    private fun setupAdmob() {
+        MobileAds.initialize(this) {
+
+        }
+
+    }
+
+    private fun loadAds() {
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
     }
 
     companion object {
