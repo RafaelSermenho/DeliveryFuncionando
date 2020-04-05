@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'
 
 android {
     compileSdkVersion 29
@@ -44,4 +45,5 @@ dependencies {
     implementation 'pub.devrel:easypermissions:2.0.1'
     implementation 'com.google.firebase:firebase-ads:19.0.1'
     implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta03'
+    implementation 'com.google.firebase:firebase-perf:19.0.5'
 }
