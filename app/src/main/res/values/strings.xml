@@ -6,9 +6,9 @@
     <string name="working_hours">Horário de funcionamento:</string>
     <string name="area">Área de atuação:</string>
     <string name="permission_rationale">Nosso app precisa acessar sua localização para exibir os estabelecimentos mais próximos</string>
-    <string name="state">Estado</string>
-    <string name="city">Cidade</string>
-    <string name="contact">Contato</string>
+    <string name="state">Estado:</string>
+    <string name="city">Cidade:</string>
+    <string name="contact">Contato:</string>
     <string name="background_content_description">Imagem de uma fênix</string>
     <string name="query_hint">Produto ou loja</string>
 
