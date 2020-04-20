@@ -9,11 +9,11 @@ class FirebaseStoreRepository {
 
     fun loadStores(address: Address?): Query {
         return if (address != null) {
-            db.collection("stores")
+            db.collection("stores").orderBy("name")
                 .whereEqualTo("state", address.adminArea)
                 .whereEqualTo("city", address.subAdminArea)
         } else {
-            db.collection("stores")
+            db.collection("stores").orderBy("name")
         }
 
     }

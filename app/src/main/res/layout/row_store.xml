@@ -9,17 +9,9 @@
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-        android:text="@string/store" />
-
-    <TextView
-        android:id="@+id/txtNameValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:layout_toEndOf="@id/txtName"
         android:ellipsize="end"
+        android:fontFamily="sans-serif-black"
         android:maxLines="1"
         tool:text="Nome de estbelecimento realmente grande" />
 
@@ -28,19 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtName"
-        android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-        android:text="@string/profile" />
-
-    <TextView
-        android:id="@+id/txtProfileValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtName"
-        android:layout_marginBottom="4dp"
-        android:layout_toEndOf="@id/txtProfile"
-        android:ellipsize="end"
-        android:maxLines="1"
         tool:text="/@RafaelSermenho" />
 
     <TextView
@@ -50,81 +30,30 @@
         android:layout_below="@id/txtProfile"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-        android:text="@string/products" />
-
-    <TextView
-        android:id="@+id/txtProductsValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtProfileValue"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_toEndOf="@id/txtProducts"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="2"
         tool:text="Bebidas, lanches e salgados" />
 
+
     <TextView
-        android:id="@+id/txtWorking_hours"
+        android:id="@+id/txtWorkingHours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtProducts"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="4dp"
-
-        android:text="@string/working_hours" />
-
-    <TextView
-        android:id="@+id/txtWorkingHoursValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtProducts"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_toEndOf="@id/txtWorking_hours"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="2"
         tool:text="18:00 às 22:00" />
-
-    <TextView
-        android:id="@+id/txtArea"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtWorking_hours"
-        android:layout_marginEnd="4dp"
-        android:text="@string/area"
-
-        />
-
-    <TextView
-        android:id="@+id/txtAreaValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtWorking_hours"
-        android:layout_toEndOf="@id/txtArea"
-        android:ellipsize="end"
-        android:maxLines="1"
-        tool:text="Barão Geraldo" />
 
 
     <TextView
         android:id="@+id/txtContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtArea"
-        android:layout_marginEnd="4dp"
-        android:text="@string/contact"
-
-        />
-
-    <TextView
-        android:id="@+id/txtContactValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtWorking_hours"
-        android:layout_toEndOf="@id/txtContact"
+        android:layout_below="@id/txtWorkingHours"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="2"
         tool:text="19 99999-9999" />
 
     <TextView
@@ -132,37 +61,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtContact"
-        android:layout_marginEnd="4dp"
-        android:text="@string/city"
-
-        />
-
-    <TextView
-        android:id="@+id/txtCityValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtContact"
-        android:layout_toEndOf="@id/txtCity"
         android:ellipsize="end"
         android:maxLines="1"
         tool:text="Campinas" />
+
 
     <TextView
         android:id="@+id/txtState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtCity"
-        android:layout_marginEnd="4dp"
-        android:text="@string/state"
-
-        />
-
-    <TextView
-        android:id="@+id/txtStateValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtCity"
-        android:layout_toEndOf="@id/txtState"
         android:ellipsize="end"
         android:maxLines="1"
         tool:text="Sao Paulo" />

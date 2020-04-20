@@ -45,10 +45,10 @@ class StoresViewModel : ViewModel() {
             return savedStores
         }
         filteredStores.value = savedStores.value?.filter {
-            it.products.toLowerCase(Locale.ROOT).contains(value.toLowerCase(Locale.ROOT)) || it.name.toLowerCase(
-                Locale.ROOT
+            it.products.toLowerCase(Locale.getDefault()).contains(value.toLowerCase(Locale.getDefault())) || it.name.toLowerCase(
+                Locale.getDefault()
             ).contains(
-                value.toLowerCase(Locale.ROOT)
+                value.toLowerCase(Locale.getDefault())
             )
         }
         return filteredStores
